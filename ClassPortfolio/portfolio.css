@@ -1,0 +1,78 @@
+body {
+    background-color: #7985f7;
+    background-image: url(images/codingsplash.jpg);
+    background-size;
+    min-width: 1000px;
+    max-width: auto;
+    color: #FFFFFF;
+}
+
+.contentcontainer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.labdiv a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.labdiv a:visited {
+    color: #881bbb;
+}
+
+.labdiv a:hover {
+    color: #e1b2ec;
+}
+
+ul li {
+    width: 75px;
+    float: left;
+    padding-bottom: 50px;
+    display: inline;
+}
+
+
+a {
+    color: white;
+}
+
+header {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    width: 150px;
+    border-style: dashed;
+    border-color: #fa8e01;
+    box-sizing: content-box;
+    text-align: center;
+    box-shadow: 10px 5px 5px;
+    clear: both;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+h2 {
+    width: 250px;
+    border-style: dashed;
+    border-color: #fa8e01;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 10px 5px 5px;
+    background-color: rgba(0, 0, 0, .8);
+}
+
+p {
+    background: rgba(6, 2, 248, 0.8);
+}
+
+footer {
+    background: rgba(6, 2, 248, .6);
+    margin-top: 20px;
+    text-align: center;
+}

@@ -1,0 +1,41 @@
+body {
+    color: rgb(24, 28, 224);
+    background-color: beige;
+    background-image: url("images/cookbook.jpg");
+    background-repeat: no-repeat;
+}
+
+.recipe {
+    border-style: double;
+    box-shadow: 5px 5px 10px;
+    border-color: purple;
+    width: 450px;
+    padding-left: 50px;
+    padding-bottom: 25px;
+}
+
+#recipelink {
+    text-align: center;
+    padding-right: 65px;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    opacity: .85;
+}
+
+h1 {
+    background-color: darkkhaki;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+ul,
+ol {
+    background-color: white;
+    opacity: .85;
+    margin-left: 2em;
+}

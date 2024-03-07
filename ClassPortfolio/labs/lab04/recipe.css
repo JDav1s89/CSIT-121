@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(24, 28, 224);
+    background-color: beige;
+    background-image: url("images/cookbook.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contentcontainer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#recipeimg {
+    border-style: double;
+    box-shadow: 5px 5px 10px;
+    border-color: purple;
+    width: 500px;
+    padding-left: 50px;
+    padding-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#recipelink {
+    text-align: center;
+    padding-right: 65px;
+    font-size: 24px;
+}
+
+#ingredients {
+    float: left;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#instructions {
+    margin-left: 650px;
+    width: 800px;
+}
+
+a:link {
+    color: #ff4444;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #74167c;
+}
+
+a:hover {
+    color: #000000;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(255, 255, 255, .85);
+    margin-left: auto;
+    margin-right: auto;
+    clear: left;
+}
+
+h1 {
+    background-color: rgba(189, 183, 107, .55);
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+ul,
+ol {
+    background-color: rgba(255, 255, 255, .85);
+    margin-left: auto;
+    margin-right: auto;
+}
