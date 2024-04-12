@@ -115,7 +115,7 @@ a:active {
         grid-template: "header header" 475px
             "summary casting" auto
             "addlcontent addlcontent" auto
-            "footer footer" 50px / 40% 1fr;
+            "footer footer" 50px / 50% 1fr;
     }
 
     header {
@@ -148,6 +148,7 @@ a:active {
     }
 
     table {
-        margin-left: 25px;
+        margin: auto;
+        margin-bottom: 25px;
     }
 }
