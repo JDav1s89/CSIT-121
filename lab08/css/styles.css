@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(233, 233, 233);
+    padding-bottom: 25px;
+}
+
+#wrapper {
+    text-align: center;
+}
+
+fieldset {
+    border: 2px ridge blue;
+    width: 300px;
+    margin: auto;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 38, 255)
+}
+
+p {
+    font-size: 20px;
+}

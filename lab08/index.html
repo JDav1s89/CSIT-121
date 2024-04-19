@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <main>
+        <div id="wrapper">
+            <h1>Types of Form Control Inputs:</h1>
+            <h2>Email Form Input</h2>
+            <p>Email forms are best used to ensure you are capturing email addresses in the proper format e.g.
+                email@address.com</p>
+            <form name="emailaddress">
+                <fieldset>
+                    <legend> Email Address</legend>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" placeholder="email@address.com" required>
+                    <input type="submit">
+                </fieldset>
+            </form>
+            <br>
+            <hr>
+            <h2>Scrolling Text Box</h2>
+            <p>Scrolling Text Boxes are best used to provide a larger amount of space for users to enter in text such as
+                for comments or questions.</p>
+            <form name="textbox">
+                <fieldset>
+                    <legend>Feedback:</legend>
+                    <label for="textarea">Enter Comments Below:</label><br>
+                    <textarea id="textarea" name="textarea" cols="40" rows="5" maxlength="500" required></textarea><br>
+                    <input type="submit">
+                </fieldset>
+            </form>
+            <br>
+            <hr>
+            <h2>Select List</h2>
+            <p>Select Lists are best used when wanting to give the user a variety of options to choose from.</p>
+            <form name="pizzatoppings">
+                <fieldset>
+                    <legend>Pizza Toppings</legend>
+                    <select size="1" name="toppingselection" id="toppingselection">
+                        <option>Select your favorite pizza topping:</option>
+                        <option value="pepperoni">Pepperoni</option>
+                        <option value="sausage">Sausage</option>
+                        <option value="bacon">Bacon</option>
+                        <option value="anchovies">Anchovies</option>
+                    </select>
+                    <input type="submit">
+                </fieldset>
+            </form>
+            <br>
+            <hr>
+            <h2>URL Input</h2>
+            <p>URL Inputs are useful for collecting the address of a URL or URI and ensuring that it is in the correct
+                format.</p>
+            <form name="favoritewebsite">
+                <fieldset>
+                    <legend>Favorite Website</legend>
+                    <label for="favWebsite">What is your favorite website?</label>
+                    <input type="url" name="favWebsite" id="favWebsite">
+                    <input type="submit">
+                </fieldset>
+            </form>
+            <br>
+            <hr>
+            <h2>Date Input</h2>
+            <p>A Date Input is useful when requiring the user enter in a date such as for entering their birthday,
+                setting the date of an appointment, or any other event that requires a specific month, day, or year be
+                selected.</p>
+            <form name="userdob">
+                <fieldset>
+                    <legend>Date of Birth:</legend>
+                    <label for="userbirthday">What is your DOB?
+                        <br>
+                        <input type="date" name="userbirthday" id="userbirthday">
+                    </label>
+                    <input type="submit">
+                </fieldset>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
