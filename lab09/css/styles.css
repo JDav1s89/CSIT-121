@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #000000;
+    color: #9DEFFF;
+}
+
+h1 {
+    font-size: 48px;
+    color: #FFD52A;
+}
+
+h2 {
+    font-size: 36px;
+    color: #FFD52A;
+}
+
+h3 {
+    font-size: 28px;
+    color: #FFD52A;
+}
+
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+footer {
+    margin-top: 10px;
+}
+
+#cast {
+    display: inline-block;
+    text-align: left;
+}
+
+#scottdvd {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+caption {
+    padding-bottom: 20px;
+    font-size: 28px;
+    color: #FFD52A;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+th {
+    text-align: center;
+    font-size: 26px;
+    border: 1px #FFD52A solid;
+    color: orange;
+    padding: 10px;
+}
+
+td {
+    border: 1px #FFD52A solid;
+    padding: 10px
+}
+
+tr {
+    text-align: center;
+}
+
+
+tr:nth-of-type(even) {
+    color: beige
+}
+
+a {
+    font-size: 22px;
+}
+
+a:link {
+    color: #FFFFFF;
+}
+
+a:visited {
+    color: #FFFD1D;
+}
+
+a:focus {
+    color: #FFC36C;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #FFC36C;
+}
+
+a:active {
+    color: #FFFFFF;
+}
+
+@media only screen and (min-width: 768px) {
+    #wrapper {
+        display: grid;
+        grid-template: "header header" 475px
+            "summary casting" auto
+            "addlcontent addlcontent" auto
+            "footer footer" 50px / 50% 1fr;
+    }
+
+    header {
+        grid-area: header;
+    }
+
+    #summaryreview {
+        grid-area: summary;
+    }
+
+    #castingrank {
+        grid-area: casting;
+    }
+
+    #additionalcontent {
+        grid-area: addlcontent;
+    }
+
+    footer {
+        grid-area: footer;
+    }
+
+    #basedattribute {
+        margin-bottom: 5px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    table {
+        margin: auto;
+        margin-bottom: 25px;
+    }
+}
