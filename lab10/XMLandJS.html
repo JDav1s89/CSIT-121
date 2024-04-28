@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>XML and JS</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <h1>XML and JS</h1>
+        <h2>XML</h2>
+        <p class="question">What is XML?</p>
+        <p>XML <span id="acronym">(Extensible Markup Language)</span> is a markup language that is designed to allow the
+            storage and
+            transportation of
+            data. It is separate from the structure (HTML) and presentation (CSS) elements of a web page.</p>
+        <p class="question">How is XML used?</p>
+        <p>XML is used to store, distribute, and query data. It does not have any predefined tags and so it has the
+            ability
+            to accurately define whatever data is stored within the document as long as it follows the standardized XML
+            syntax rules.</p>
+        <p class="question">What does XML look like?</p>
+        <p id="xmltree">XML Tree Structure:</p>
+        <img src="images/gamelibrary.drawio.png" alt="Game Library XML Tree Structure">
+        <p id="boxexplanation">The text box below contains the tree structure example above in XML format.</p>
+        <textarea id="xmlexample" rows="20" cols="60">
+<?xml version="1.0" encoding="UTF-8"?>
+<gamelibrary>
+    <game console="ps5" genre="action">
+        <title>Elden Ring</title>
+        <developer>From Software</developer>
+        <year>2022</year>
+    </game>
+    <game console="ps5" genre="adventure">
+        <title>Horizon Forbidden West</title>
+        <developer>Guerilla Games</developer>
+        <year>2022</year>
+    </game>
+    <game console="pc" genre="adventure">
+        <title>Monster Hunter: Rise</title>
+        <developer>Capcom</developer>
+        <year>2021</year>
+    </game>
+</gamelibrary>>
+
+</textarea>
+        <h2>JavaScript</h2>
+        <p class="question">What is JavaScript?</p>
+        <p>JavaScript is a programming language that is unique in that it can be run within the browser and therefore
+            allows
+            for client-side scripting. Due to JavaScript being able to run within the browser it allows for numerous
+            forms
+            of multimedia functionality that does not require a webpage to be refreshed.</p>
+        <p class="question">How is JavaScript related to HTML and CSS?</p>
+        <p>If a webpage was thought of as a grammatical sentence then JavaScript could be thought of as the verbs.
+            JavaScript deals with actions and functionality, whereas HTML would be considered the nouns or structure and
+            CSS
+            as the adjectives or styling of the words.</p>
+        <p class="question">What are some common JavaScript elements, properties, methods, and functions?</p>
+        <p><span class="jssubheader">Element:</span> JavaScript elements are all of the HTML objects that can be
+            selected and manipulated via the Document Object Model.
+            <br>
+            Ex. The "Window" object is an object representing an open window in a browser.
+        </p>
+        <p><span class="jssubheader">Property:</span> JavaScript properties are the values that are associated with any
+            JavaScript object.
+            <br>
+            Ex. The "lastModified" property is the property that contains information related to when the last time a
+            file
+            was saved or modified.
+        </p>
+        <p><span class="jssubheader">Method:</span>
+            A method is an action that can be performed on objects. One common JavaScript Method is the Alert method
+            which is used to cause the browser to render a popup box
+            which can contain information provided to the user.</p>
+        Ex.<br>
+        <textarea rows="4" cols="20">alert("This is an Alert method.")</textarea>
+        <p><span class="jssubheader">Function:</span> A JavaScript function is a block of code created to do something.
+            They are often used in conjunction with an Event Listener to trigger it.
+        </p>
+        <div id="references">
+            <p>Reference Sources:</p>
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction">MDN Web Docs - XML
+                        Introduction</a></li>
+                <li><a href="https://www.w3schools.com/xml/xml_tree.asp">w3schools XML Tree Structure</a></li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript">MDN
+                        Web
+                        Docs - What is JavaScript?</a></li>
+                <li><a href="https://app.diagrams.net/?src=about">XML Tree Strcutre created via Diagrams.net</a></li>
+                <li><a href="https://www.w3schools.com/js/js_object_definition.asp">JavaScript Objects</a></li>
+                <li><a
+                        href="https://www.w3schools.com/jsref/obj_window.asp#:~:text=The%20window%20object%20represents%20an%20open%20window%20in%20a%20browser.">w3schools
+                        Window Object</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
